@@ -117,9 +117,14 @@ sudo usermod -a -G docker jenkins
 On Jenkins UI:
 - add the slave private key to jenkins credentials
 Manage Jenkins -> Manage Nodes and Clouds -> New Node.
-you can follow this detailed guide:
+You can follow this detailed guide:
 https://yallalabs.com/linux/how-to-add-linux-slave-node-agent-node-jenkins/ 
 
+
+### Define Github webhook for Jenkins
+Push some new code to repo and Jenkins will run build without an intervention.
+You can follow this detailed guide:
+https://k6.io/blog/bootstrap-your-ci-with-jenkins-and-github
 
 Turorials I used:
 - https://dev.to/andresfmoya/install-jenkins-using-docker-compose-4cab
